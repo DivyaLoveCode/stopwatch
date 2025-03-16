@@ -35,3 +35,38 @@ body{
 	width:80px;
 	
 }
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .stopwatch {
+        padding: 30px 0;
+    }
+    .stopwatch h1 {
+        font-size: 50px;
+    }
+    .buttons img {
+        width: 45px;
+        margin: 0 15px;
+    }
+    .buttons img:nth-child(2) {
+        width: 70px;
+    }
+}
+
+@media (max-width: 480px) {
+    .stopwatch {
+        padding: 20px 0;
+        width: 90%;
+        margin: 30px auto 0;
+    }
+    .stopwatch h1 {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+    .buttons img {
+        width: 40px;
+        margin: 0 12px;
+    }
+    .buttons img:nth-child(2) {
+        width: 60px;
+    }
+}
